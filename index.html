@@ -592,7 +592,7 @@ function renderContent() {
       const id = `${ev.day}-${group.id}-${idx}`;
       const isExpanded = expandedId === id;
       const tag = ev.tag ? TAG_CONFIG[ev.tag] : null;
-      const highlightClass = ev.tag === "piemonte" ? "highlight-piemonte"
+      const highlightClass = ev.tag === "ance" ? "highlight-ance"
                            : ev.tag === "ance" ? "highlight-ance" : "";
       const accentBar = (ev.tag === "piemonte" || ev.tag === "ance")
         ? `<div class="accent-bar" style="background:${tag.bg}"></div>` : "";
